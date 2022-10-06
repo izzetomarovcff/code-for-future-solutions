@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+    font-family: "Roboto";
+}
+th{
+    background-color: lightgray;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    
+}
+td{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+table{
+    text-decoration:  1px solid #b0a160 underline;
+    border-collapse: collapse;
+}
