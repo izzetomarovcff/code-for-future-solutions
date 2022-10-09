@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.course{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.course p{
+    max-width: 662px;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-left: 124px;
+    line-height: 36px;
+}
+.course h1{
+    max-width: 365px;
+    margin-left: 124px;
+    margin-top: 91px;
+    font-size: 55px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    line-height: 55.76px;
+    margin-bottom: 30px;
+}
+.course .right{
+    margin-left: 190px;
+    margin-top: 170px;
+    position: relative;
+}
+.course .right .image img{
+    width: 314px;
+    height: 315px;
+    z-index: 1;
+}
+.course .right .image .ellipse{
+    position: absolute;
+    background-color: #efefef;
+    width: 366px;
+    height: 59px;
+    z-index: -1;
+    bottom: -30px;
+    left: -24px;
+    border-radius: 50%;
+}
+@media (min-width: 830px){
+    .course{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .course p{
+        max-width: 46vw;
+        font-size: 1.6vw;
+        line-height: 2.5vw;
+        font-family: 'Roboto' sans-serif;
+        font-weight: 400;
+        margin-left: 8.6vw;
+    }
+    .course h1{
+        max-width: 25.3vw;
+        margin-left: 8.6vw;
+        margin-top: 6.3vw;
+        font-size: 3.8vw;
+        font-weight: 700;
+        font-family: 'Roboto Slab', serif;
+        line-height: 3.8vw;
+        margin-bottom: 2vw;
+    }
+    .course .right{
+        margin-left: 13vw;
+        margin-top: 11.8vw;
+        position: relative;
+    }
+    .course .right .image .img{
+        width: 21.8vw;
+        height: 21.87vw;
+        z-index: 1;
+    }
+    .course .right .image .ellipse{
+        position: absolute;
+        background-color: #efefef;
+        width: 25.4vw;
+        height: 4vw;
+        top: 20vw;
+        left: -2vw;
+        border-radius: 50%;
+    }
+}
+@media (min-width: 375) and (max-width: 830px){
+    .course {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .course p {
+        max-width: 82vw;
+        font-size: 3.2vw;
+        line-height: 4.8vw;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        margin-left: 0vw;
+        line-height: 4.8vw;
+    }
+    .course h1 {
+        max-width: 45.3vw;
+        margin-left: 0vw;
+        margin-top: 20vw;
+        font-size: 6.9vw;
+        font-weight: 700;
+        font-family: 'Roboto Slab', serif;
+        line-height: 7vw;
+        margin-bottom: 5vw;
+    }
+    .course .right {
+        margin-left: 0vw;
+        margin-top: 10.6vw;
+        position: relative;
+    }
+    .course .right .image img {
+        width: 39vw;
+        height: 39.2vw;
+        z-index: 5;
+    }
+    .course .right .image .ellipse {
+        position: absolute;
+        background-color: #EFEFEF;
+        width: 44vw;
+        height: 7vw;
+        z-index: -5;
+        bottom: -3vw;
+        left: -57vw;
+        border-radius: 50%;
+    }
+}
