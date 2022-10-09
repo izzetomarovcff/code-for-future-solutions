@@ -1,0 +1,13 @@
+.photo-with-tip{
+    position: relative;
+}
+.tip{
+    display: none;
+    position: absolute;
+    bottom: 5px;
+    background-color: white;
+    margin-left: 5px;
+}
+.photo-with-tip:hover .tip{
+    display: block;
+}
