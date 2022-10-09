@@ -1,0 +1,31 @@
+.wrapper{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.sd{
+    width: 33%;
+    background-color: yellow;
+    margin: 3px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+p{
+    padding: 10px;
+}
+h2{
+    padding: 10px;
+}
+@media (max-width: 600px){
+    .wrapper{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .sd{
+        margin: auto;
+        margin-bottom: 6px;
+        width: 90%;
+    }
+}
