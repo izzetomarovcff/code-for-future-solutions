@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    font-family: Georgia , sans-serif;
+}
+.container{
+    
+    width: 1000px;
+    margin: 20px;
+}
+.icon{
+    font-size: 25px;
+    font-weight: 900;
+    margin: 0;
+}
+.menu{
+    position: absolute;
+    width: 350px;
+    top: 20px;
+    bottom: 0;
+    left: 700px;
+}
+.menu-list{
+    display: block;
+    
+}
+.menu-list li{
+    display: inline;
+    margin: 0 10px;
+    border-bottom: 1px solid black;
+    list-style-type: none;
+}
+.menu-list a{
+    text-decoration: none;
+    color: black;
+}
+.content{
+    margin: 30px 0 0 0;
+    width: 1000px;
+}
+.title{
+    background-color: blue;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    font-family: Roboto;
+    
+}
+.title h1{
+    font-size: 65px;
+    width: 700px;
+    font-weight: blod;
+}
+p{
+    font-size: 33px;
+    width: 500px;
+}
+.description{
+    width: 700px;
+    margin-top: 50px;
+}
+.first-paragraph{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: 700px;
+}
+.description h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Roboto;
+}
+.description p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: 700px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.note{
+    width: 700px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Roboto;
+}

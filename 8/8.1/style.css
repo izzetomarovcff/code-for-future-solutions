@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{
+    font-family: "Lato";
+    font-size: 11px;
+    padding: 10px;
+}
+.barel{
+    width: 500px;
+    
+}
+.bar{
+    height: 50px;
+    margin: 0 0 5px;
+    padding: 18px;
+    color: #fff;
+    box-sizing: border-box;
+}
+.iphone-xr{
+    width: 463px;
+    background-color: red;
+}
+.iphone11{
+    width: 373px;
+    background-color: lightblue;
+    color: #000;
+}
+.GA10{
+    width: 303px;
+    background-color: bisque;
+    color: #000;
+}
+.GA50{
+    width: 242px;
+    background-color: cyan;
+    color: #000;
+}
+.GA20{
+    width: 192px;
+    background-color: black;
+}
+span{
+    font-weight: bold;
+}

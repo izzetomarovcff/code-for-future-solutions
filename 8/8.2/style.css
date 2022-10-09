@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+}
+p{
+    margin: 0;
+}
+.card{
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #999999;
+    border-radius: 3px;
+}
+.image{
+    width: 400px;
+    margin-bottom: 10px;
+}
+.title{
+    margin: 0;
+}
+.by{
+    margin-bottom: 10px;
+}
+.price{
+    color: #B12704;
+    margin-bottom: 20px;
+}
+.features{
+    background-color: #ebebeb;
+    padding: 20px;
+    margin: 0 0 20px;
+    list-style-type: none;
+}
+.buy{
+    text-decoration: none;
+    font-size: 16px;
+    color: #853ae0;
+    padding: 10px 10px 10px 0px;
+    font-weight: bold;
+}
+.add-to-cart{
+    text-decoration: none;
+    font-size: 16px;
+    color: #853ae0;
+    padding: 10px 10px 10px 0px;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+.back{
+    display: block;
+    margin: 10px 10px 10px 0;
+    color: black;
+    font-style: italic;
+    font-size: 12px;
+    
+}
