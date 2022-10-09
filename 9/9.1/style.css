@@ -1,0 +1,17 @@
+.goods-item {
+    font-family: sans-serif;
+    background-color: #ba99e4;
+    padding: 50px;
+    border-radius: 3px;
+  }
+  .goods{
+      display: flex;
+      list-style-type: none;
+      
+  }
+  li:nth-child(2){
+      margin: 0 10px;
+  }
+  li:nth-child(4){
+      margin: 0 10px;
+  }
